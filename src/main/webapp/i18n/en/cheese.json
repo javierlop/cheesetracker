@@ -1,0 +1,24 @@
+{
+    "cheesetrackerApp": {
+        "cheese" : {
+            "home": {
+                "title": "Cheeses",
+                "createLabel": "Create a new Cheese",
+                "createOrEditLabel": "Create or edit a Cheese",
+                "search": "Search for Cheese"
+            },
+            "created": "A new Cheese is created with identifier {{ param }}",
+            "updated": "A Cheese is updated with identifier {{ param }}",
+            "deleted": "A Cheese is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Cheese {{ id }}?"
+            },
+            "detail": {
+                "title": "Cheese"
+            },
+            "name": "Name",
+            "milk": "Milk",
+            "vote": "Vote"
+        }
+    }
+}

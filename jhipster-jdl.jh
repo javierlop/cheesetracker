@@ -1,0 +1,12 @@
+entity Cheese {
+	name String,
+	milk String
+}
+
+entity Vote {
+	rate Integer
+}
+
+relationship OneToMany {
+	Cheese{vote} to Vote
+}

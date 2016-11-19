@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "vote",
+            "otherEntityName": "vote",
+            "otherEntityRelationshipName": "cheese"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "milk",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20161112220558",
+    "entityTableName": "cheese",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}
